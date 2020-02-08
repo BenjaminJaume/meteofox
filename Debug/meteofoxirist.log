@@ -1,0 +1,623 @@
+﻿La génération a démarré 08/06/2015 22:37:51.
+     1>Projet "C:\Users\Kevin\Documents\Arduino\meteofoxirist\meteofoxirist.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" /IC:\Users\Kevin\Documents\Arduino\meteofoxirist /IC:\Users\Kevin\Documents\Arduino\libraries\decodeur_nmea /IC:\Users\Kevin\Documents\Arduino\libraries\decodeur_nmea\utility /IC:\Users\Kevin\Documents\Arduino\libraries\SFE_BMP180 /IC:\Users\Kevin\Documents\Arduino\libraries\SFE_BMP180\utility /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial" /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\utility" /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire" /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\utility" /I"c:\Program Files (x86)\Arduino\libraries" /I"c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IC:\Users\Kevin\Documents\Arduino\libraries /I"c:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/" /I"c:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/" /I"c:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D ARDUINO=161 /D ARDUINO_MAIN /D __AVR__ /D __avr__ /D F_CPU=16000000L /D __cplusplus /D GCC_VERSION=40801 /D ARDUINO_ARCH_AVR /D ARDUINO_AVR_UNO /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"C:\Users\Kevin\Documents\Arduino\meteofoxirist\Visual Micro\.meteofoxirist.vsarduino.h" /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HID.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\main.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp" "..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\SoftwareSerial.cpp"
+         SoftwareSerial.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         WString.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         WMath.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         USBCore.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         Tone.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         Stream.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         Print.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         new.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         main.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         IPAddress.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HID.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HardwareSerial3.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HardwareSerial2.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HardwareSerial1.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HardwareSerial0.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         HardwareSerial.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         CDC.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         abi.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328p__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega328P__'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(17): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(18): warning C4005: 'ARDUINO_AVR_UNO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_AVR_UNO'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(19): warning C4005: 'ARDUINO_ARCH_AVR' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_ARCH_AVR'
+     1>c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(20): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: trop de paramètres réels pour la macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : pas de conversion de 'size_t' en 'const char *'
+                 La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redéfinition ; types de base différents
+                 c:\users\kevin\documents\arduino\meteofoxirist\visual micro\.meteofoxirist.vsarduino.h(64) : voir la déclaration de 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : fonction membre déjà définie ou déclarée
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : voir la déclaration de 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : l'utilisation de ce mot clé requiert l'option de ligne de commande /clr:oldSyntax
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: erreur de syntaxe : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : identificateur non déclaré
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: commande de préprocesseur non valide 'warning'
+         Analyse du code en cours pour C/C++...
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\Kevin\Documents\Arduino\meteofoxirist\meteofoxirist.vcxproj" terminée (Rebuild cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.36
